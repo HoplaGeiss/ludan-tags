@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-ludan-tags": [
+        "dist/ngx-ludan-tags"
+      ],
+      "ngx-ludan-tags/*": [
+        "dist/ngx-ludan-tags/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

@@ -1,0 +1,30 @@
+$primary: #e3875a;
+$grey: #dddddd;
+
+.wrapper {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background: $primary;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .cross {
+    padding-left: 10px;
+    cursor: pointer;
+    transition: 300ms;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
